@@ -1,3 +1,4 @@
+"user client"
 import { Button } from "@/components/ui/button"
 
 interface CountrySelectorProps {

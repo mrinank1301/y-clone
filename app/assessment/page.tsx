@@ -1,9 +1,9 @@
 import { Layout } from "../components/layout"
-import { ProgressSteps } from "../components/assessment/progress-steps"
-import { ScoreDisplay } from "../components/assessment/score-display"
-import { CountrySelector } from "../components/assessment/country-selector"
-import { FAQSection } from "../components/assessment/faq-section"
-import { CalculatorInfo } from "../components/assessment/calculator-info"
+import { ProgressSteps } from "@/components/progress-steps"
+import { ScoreDisplay } from "@/components/score-display"
+import { CountrySelector } from "@/components/country-selector"
+import { FAQSection } from "@/components/faq-section"
+import { CalculatorInfo } from "@/components/calculator-info"
 import { Button } from "@/components/ui/button"
 import { Users } from 'lucide-react'
 

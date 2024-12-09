@@ -51,7 +51,7 @@ export function HeroSection() {
             <div className="flex items-start gap-4">
               <Users className="h-6 w-6 sm:h-8 sm:w-8 text-primary mt-1" />
               <div>
-                <h3 className="text-lg sm:text-xl font-semibold mb-2">Don't know what to do?</h3>
+                <h3 className="text-lg sm:text-xl font-semibold mb-2">Don&apos;t know what to do?</h3>
                 <Link
                   href="/chat"
                   className="text-red-500 hover:text-red-600 font-medium"

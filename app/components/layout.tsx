@@ -1,12 +1,13 @@
-import { TopBar } from "./top-bar"
-import { Navigation } from "./navigation"
-import { Footer } from "./footer"
+import React from 'react';
+import { TopBar } from "@/components/top-bar"
+import { Navigation } from "@/components/navigation"
+import { Footer } from "@/components/footer"
 
 interface LayoutProps {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 
-export function Layout({ children }: LayoutProps) {
+export default function Layout({ children }: LayoutProps) {
   return (
     <div className="min-h-screen flex flex-col">
       <TopBar />
@@ -18,4 +19,3 @@ export function Layout({ children }: LayoutProps) {
     </div>
   )
 }
-

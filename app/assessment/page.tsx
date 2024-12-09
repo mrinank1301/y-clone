@@ -1,4 +1,4 @@
-import { Layout } from "../components/layout"
+import Layout  from "../components/layout"
 import { ProgressSteps } from "@/components/progress-steps"
 import { ScoreDisplay } from "@/components/score-display"
 import { CountrySelector } from "@/components/country-selector"
